@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="hero">
+        <div class="overlay"></div>
+        <h1 class="fade-in">Имя & Имя</h1>
+        <p class="fade-in delay">Приглашаем вас на нашу свадьбу!</p>
+        <div id="countdown" class="fade-in delay"></div>
+        <a href="#details" class="btn pulse">Подробнее</a>
+    </section>
+    
+    <section id="details" class="slide-in">
+        <h2>Детали свадьбы</h2>
+        <p>Дата: <strong>25 августа 2025</strong></p>
+        <p>Место: <strong>Прекрасная локация</strong></p>
+        <a href="https://maps.google.com" target="_blank" class="btn glow">Как добраться</a>
+    </section>
+    
+    <section id="gallery" class="parallax">
+        <h2>Наши моменты</h2>
+        <div class="gallery-container">
+            <img src="photo1.jpg" alt="Фото 1" class="zoom-in">
+            <img src="photo2.jpg" alt="Фото 2" class="zoom-in">
+        </div>
+    </section>
+    
+    <section id="rsvp" class="slide-in">
+        <h2>Подтвердите участие</h2>
+        <button class="btn shake">RSVP</button>
+    </section>
+</body>
+</html>
